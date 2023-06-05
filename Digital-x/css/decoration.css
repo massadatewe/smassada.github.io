@@ -1,0 +1,160 @@
+.container{
+    margin:0;
+    padding: 0;
+    margin-bottom:15px;
+}
+.main5{
+    background-image:url(image.jpeg);
+	background-attachment: fixed;
+}
+
+h1{
+	text-align: center;
+    font-family:Berlin Sans FB Demi;
+    font-size:35px;
+    color:white;
+    margin:0;
+    padding:0;
+    border:solid black;
+    background-color:black;
+  }
+  a{
+	text-decoration:none;
+	margin-right:10px;
+	padding-top:100px;
+	color: blue;
+	margin-left:08px;
+}
+a:hover{
+	color:white;
+	border-bottom: 1px solid white;
+}
+nav{
+	display:flex;
+	display:block;
+	padding:10px 0 10px 0;
+	flex-wrap:wrap;
+}
+
+.main4,.submit,.rest,{
+    background-image:url("images.jpg");
+}
+
+.clas{
+	color:black;
+	margin-bottom:20px;
+	font-size:30px;
+	font-family:Algerian;
+}
+
+form{
+	background-color:#515151;
+	text-align:center;
+	width:400px;
+	padding-bottom:15px;
+	padding-top:5px;
+}
+label{
+	color:white;
+	font-size:16px;
+}
+h3{
+	color: white;
+	font-family:Copperplate Gothic Bold;
+	font-size:22px;
+}
+input{
+  margin:10px 0 0 0;
+  width:380px;
+  background-color:#19518519;
+  color:white;
+}
+.boutton{
+color:black;
+width:150px;
+border-color:white;
+background-color:white;
+margin-left:10PX;
+
+}
+hr{
+height:1px;
+background-color:black;
+border-color:black;
+}
+
+.table{
+    display: flex;
+    border:none;
+    background-color: rgb(223, 165, 165);
+    text-align:center;
+}
+
+.tab{
+    flex-direction:row;
+}
+fieldset{
+    border: none;
+    margin-top:10px;
+    font-size:20px ;
+    text-decoration: underline;
+}
+.modif{
+    width:100PX;
+    color:black;
+    border-color:white;
+    background-color:white;
+
+}
+
+@media screen and (min-width:320px) and (max-width:768px){
+	.container{
+		flex-direction: column;
+	}
+
+    .table{
+        flex-direction: column;
+        text-align:center;
+    }
+    }
+    
+    .tab{
+        justify-content:center;
+}
+.droit{
+    text-align: center;
+}
+footer{
+    background-color:white;
+    margin-bottom:2px;
+}
+@media screen and (min-width:769px) {
+    .main4{
+        display:flex;
+        flex-direction:row;
+        width:100%;
+    }
+	.clas{
+        margin-right:0px;
+        margin-left:0px;
+    }
+    .table{
+        display:flex;
+        flex-wrap:wrap;
+    }
+   
+}
+
+@media screen and (min-width:1289px){
+
+    .table{
+        display:flex;
+        flex-direction:column;
+        }
+    .main4{
+        display:flex;
+        justify-content: space-between;
+    }
+}
+
+
